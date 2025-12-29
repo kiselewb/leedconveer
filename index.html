@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Leed Conveer - Лиды Для Вашего Бизнеса</title>
+    <link rel="stylesheet" href="./styles/reset.css" />
+    <link rel="stylesheet" href="./styles/main.css" />
+    <link
+      rel="preload"
+      href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"
+      as="style"
+      onload="this.onload=null;this.rel='stylesheet'"
+    />
+    <noscript>
+      <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"
+      />
+    </noscript>
+    <link
+      rel="preload"
+      href="./assets/images/hero.webp"
+      as="image"
+      type="image/webp"
+      fetchpriority="high"
+    />
+    <meta
+      name="description"
+      content="Покупайте целевые лиды для бизнеса от 300₽. Лидогенерация B2B, биржа лидов, оплата только за результат. Получите готовых клиентов уже сегодня!"
+    />
+    <meta
+      property="og:description"
+      content="Покупайте целевые лиды для бизнеса от 300₽. Оплата только за результат."
+    />
+    <link rel="icon" type="image/png" href="./assets/images/favicon.ico" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="wrapper">
+        <a href="./index.html" class="header__logo">
+          <img
+            src="./assets/images/logo.svg"
+            alt="Логотип компании"
+            width="251"
+            height="70"
+            fetchpriority="high"
+            loading="eager"
+            class="header__logo-image"
+          />
+        </a>
+      </div>
+      <nav class="header__nav">
+        <a href="./index.html" class="header__nav-link">Как это работает</a>
+        <a href="./index.html" class="header__nav-link">Цена</a>
+        <a href="./index.html" class="header__nav-link">Отзывы</a>
+        <a href="./index.html" class="header__nav-link">Контакты</a>
+        <div class="header__contacts header__nav-link">
+          <div class="contacts__social">
+            <a
+              href="./index.html"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Написать в WhatsApp"
+              class="contacts__link contacts__link--whatsapp"
+            >
+              <img
+                src="./assets/images/icons/whatsapp_icon.svg"
+                aria-hidden="true"
+                width="40"
+                height="40"
+                loading="lazy"
+                alt="WhatsApp"
+              />
+            </a>
+            <a
+              href="./index.html"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Написать в Telegram"
+              class="contacts__link contacts__link--telegram"
+            >
+              <img
+                src="./assets/images/icons/telegram_icon.svg"
+                aria-hidden="true"
+                width="40"
+                height="40"
+                loading="lazy"
+                alt="Telegram"
+              />
+            </a>
+          </div>
+          <a href="tel:+74951183282" class="contacts__tel">+7 495 118-32-82</a>
+        </div>
+      </nav>
+      <div class="header__contacts">
+        <div class="contacts__social">
+          <a
+            href="./index.html"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Написать в WhatsApp"
+            class="contacts__link contacts__link--whatsapp"
+          >
+            <img
+              src="./assets/images/icons/whatsapp_icon.svg"
+              aria-hidden="true"
+              width="40"
+              height="40"
+              loading="lazy"
+              alt="WhatsApp"
+            />
+          </a>
+          <a
+            href="./index.html"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Написать в Telegram"
+            class="contacts__link contacts__link--telegram"
+          >
+            <img
+              src="./assets/images/icons/telegram_icon.svg"
+              aria-hidden="true"
+              width="40"
+              height="40"
+              loading="lazy"
+              alt="Telegram"
+            />
+          </a>
+        </div>
+        <a href="tel:+74951183282" class="contacts__tel">+7 495 118-32-82</a>
+      </div>
+      <div class="header__nav-button">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </header>
+    <main>
+      <section class="offer">
+        <div class="offer__container wrapper">
+          <div class="offer-grid">
+            <div class="offer-grid__decription">
+              <h1 class="offer-grid__title title">
+                <span class="title__accent">Лидогенерация</span> для бизнеса
+              </h1>
+              <p class="offer-grid__subtitle subtitle">
+                Покупайте только целевые лиды по фиксированной цене от 300 ₽
+              </p>
+              <a href="./index.html" class="offer-grid__button button">
+                Выбрать пакет лидов
+              </a>
+            </div>
+            <div class="offer-grid__poster">
+              <img
+                src="./assets/images/hero.webp"
+                alt="Основное изображение"
+                width="791"
+                height="497"
+                fetchpriority="high"
+                loading="eager"
+                class="offer-grid__image"
+              />
+            </div>
+          </div>
+          <div class="offer-tags">
+            <p class="offer-tags__item">Лидогенерация в b2b</p>
+            <p class="offer-tags__item">Биржа лидов</p>
+            <p class="offer-tags__item">Сервис по Лидгену</p>
+            <p class="offer-tags__item">Лиды для производства</p>
+            <p class="offer-tags__item">
+              Клиенты<br />
+              для бизнеса
+            </p>
+            <p class="offer-tags__item">Определить телефон посетителя сайта</p>
+          </div>
+        </div>
+      </section>
+      <section class="advantages wrapper">
+        <h2 class="advantages__title title">
+          Завалим ваш отдел продаж
+          <span class="title__accent">целевыми Лидами</span>
+        </h2>
+        <div class="advantages-grid">
+          <div class="advantages-item">
+            <span class="advantages-item__decoration"></span>
+            <div class="advantages-item__text">
+              <p class="advantages-item__title">
+                <span>Оплата за результат</span>
+                <img
+                  src="./assets/images/icons/star_icon_rainbow.svg"
+                  alt="Звезда"
+                  aria-hidden="true"
+                />
+              </p>
+              <p class="advantages-item__desc">
+                Вы платите только за переданные и получение вами целевые Лиды —
+                их контактные данные (телефон, Telegram, email)
+              </p>
+            </div>
+            <picture class="advantages-item__img">
+              <source
+                media="(max-width: 570px)"
+                srcset="./assets/images/phone_mob.webp"
+              />
+              <source
+                media="(min-width: 571px)"
+                srcset="./assets/images/phone.webp"
+              />
+              <img
+                src="./assets/images/phone.webp"
+                alt="Телефон"
+                loading="lazy"
+              />
+            </picture>
+          </div>
+          <div class="advantages-item">
+            <span class="advantages-item__decoration"></span>
+            <div class="advantages-item__text">
+              <p class="advantages-item__title">
+                <span>Качественные лиды</span>
+                <img
+                  src="./assets/images/icons/star_icon_rainbow.svg"
+                  alt="Звезда"
+                  aria-hidden="true"
+                />
+              </p>
+              <p class="advantages-item__desc">
+                Все передаваемые вам Лиды — это потенциальные клиенты, которые
+                искали ваш товар или услугу
+              </p>
+            </div>
+            <picture class="advantages-item__img">
+              <source
+                media="(max-width: 570px)"
+                srcset="./assets/images/lead_mob.webp"
+              />
+              <source
+                media="(min-width: 571px)"
+                srcset="./assets/images/lead.webp"
+              />
+              <img
+                src="./assets/images/lead.webp"
+                alt="Лид"
+                loading="lazy"
+              />
+            </picture>
+          </div>
+          <div class="advantages-item">
+            <span class="advantages-item__decoration"></span>
+            <div class="advantages-item__text">
+              <p class="advantages-item__title">
+                <span>Любой объём —<br />на ваш выбор</span>
+                <img
+                  src="./assets/images/icons/star_icon_rainbow.svg"
+                  alt="Звезда"
+                  aria-hidden="true"
+                />
+              </p>
+              <p class="advantages-item__desc">
+                Покупайте сколько контактов потенциальных клиентов в месяц —
+                сколько требуется вам!
+              </p>
+            </div>
+            <picture class="advantages-item__img">
+              <source
+                media="(max-width: 570px)"
+                srcset="./assets/images/bag_mob.webp"
+              />
+              <source
+                media="(min-width: 571px)"
+                srcset="./assets/images/bag.webp"
+              />
+              <img
+                src="./assets/images/bag.webp"
+                alt="Корзина"
+                loading="lazy"
+              />
+            </picture>
+          </div>
+          <div class="advantages-item">
+            <span class="advantages-item__decoration"></span>
+            <div class="advantages-item__text">
+              <p class="advantages-item__title">
+                <span>Комплекс технологий</span>
+                <img
+                  src="./assets/images/icons/star_icon_rainbow.svg"
+                  alt="Звезда"
+                  aria-hidden="true"
+                />
+              </p>
+              <p class="advantages-item__desc">
+                После расчёта стоимости Лидов и оплаты выбранного пакета — вы
+                получите уникальный код для своего сайта, который позволит
+                отслеживать контакты тех, кто не оставил заявку
+              </p>
+            </div>
+            <picture class="advantages-item__img">
+              <source
+                media="(max-width: 570px)"
+                srcset="./assets/images/laptop_mob.webp"
+              />
+              <source
+                media="(min-width: 571px)"
+                srcset="./assets/images/laptop.webp"
+              />
+              <img
+                src="./assets/images/laptop.webp"
+                alt="Ноутбук"
+                loading="lazy"
+              />
+            </picture>
+          </div>
+        </div>
+      </section>
+      <section class="prices wrapper">
+        <h2 class="prices__title title">
+          Стоимость технологий
+          <span class="title__accent">«Лид Конвейер»</span>
+        </h2>
+        <p class="prices__subtitle subtitle">
+          Оптимальные тарифы и цены на получение готовых Лидов и заявок с вашего
+          сайта, без переплаты и абонентской платы
+        </p>
+        <div class="prices-grid swiper">
+          <div class="prices-grid__wrapper swiper-wrapper">
+            <div class="prices-item swiper-slide">
+              <div class="prices-item__info">
+                <p class="prices-item__badge">Старт</p>
+                <p class="prices-item__title title">
+                  50 готовых лидов<br />за
+                  <span class="prices-item__price">22 500 ₽</span>
+                </p>
+                <p class="prices-item__desc">
+                  Стартовый пакет для тех, кто хочет купить Лидов со своего
+                  сайта и повысить свои продаж
+                </p>
+                <div class="prices-item__list">
+                  <p class="prices-item__feature">50 Лидов</p>
+                  <p class="prices-item__feature prices-item__feature--primary">
+                    450 ₽ за один Лид
+                  </p>
+                  <p class="prices-item__feature">Получение за 5–7 дней</p>
+                </div>
+              </div>
+              <a href="./index.html" class="prices-item__button button"
+                >Купить</a
+              >
+            </div>
+            <div class="prices-item prices-item--dark swiper-slide">
+              <div class="prices-item__info">
+                <p class="prices-item__badge">Стандарт</p>
+                <p class="prices-item__title title">
+                  100 готовых лидов<br />за
+                  <span class="prices-item__price">40 000 ₽</span>
+                </p>
+                <p class="prices-item__desc">
+                  Оптимальный пакет Лидов для любого отдела продаж и для
+                  повышения продаж своих товаров или услуг
+                </p>
+                <div class="prices-item__list">
+                  <p class="prices-item__feature">100 Лидов</p>
+                  <p class="prices-item__feature prices-item__feature--primary">
+                    400 ₽ за один Лид
+                  </p>
+                  <p class="prices-item__feature">Получение за 7–14 дней</p>
+                  <p class="prices-item__feature">
+                    Возможность показа Лидам<br />рекламы через Яндекс.Директ
+                  </p>
+                </div>
+              </div>
+              <a href="./index.html" class="prices-item__button button"
+                >Купить</a
+              >
+            </div>
+            <div class="prices-item swiper-slide">
+              <div class="prices-item__info">
+                <p class="prices-item__badge">Премиум</p>
+                <p class="prices-item__title title">
+                  300 готовых лидов<br />за
+                  <span class="prices-item__price">90 000 ₽</span>
+                </p>
+                <p class="prices-item__desc">
+                  Максимум целевых Лидов в ближайшее время для вашего бизнеса
+                  которые уже завтра могут стать Вашими клиентами!
+                </p>
+                <div class="prices-item__list">
+                  <p class="prices-item__feature">300 Лидов</p>
+                  <p class="prices-item__feature prices-item__feature--primary">
+                    300 ₽ за один Лид
+                  </p>
+                  <p class="prices-item__feature">Получение за 14–30 дней</p>
+                  <p class="prices-item__feature">
+                    Возможность показа Лидам<br />рекламы через Яндекс.Директ
+                  </p>
+                  <p class="prices-item__feature">
+                    Готовый и конверсионный<br />скрипт продаж целевым Лидам
+                  </p>
+                </div>
+              </div>
+              <a href="./index.html" class="prices-item__button button"
+                >Купить</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="steps wrapper">
+        <h2 class="steps__title title">Как это работает?</h2>
+        <div class="steps-slider swiper">
+          <div class="steps-slider__wrapper swiper-wrapper">
+            <div class="steps-slider__slide steps-slide swiper-slide">
+              <div class="steps-slide__info">
+                <p class="steps-slide__number title">
+                  01
+                  <img
+                    src="./assets/images/manskin.webp"
+                    width="72"
+                    height="72"
+                    loading="lazy"
+                    alt="Человек с ноутбуком"
+                  />
+                </p>
+                <p class="steps-slide__title title">
+                  Регистрация<br />и добавление проекта в систему
+                </p>
+              </div>
+              <div class="steps-slide__text">
+                <p class="steps-slide__desc">
+                  1. Зарегистрируйтесь в нашем личном кабинете
+                </p>
+                <p class="steps-slide__desc">
+                  2. При добавление проекта вам необходимо указать URL (адрес)
+                  своего сайта
+                </p>
+                <p class="steps-slide__desc">
+                  3. Для вашего сайта будет сгенерирован уникальный код, который
+                  необходимо установить на свой сайт (в шаблоне сайта, перед
+                  тегом &lt;/head&gt;)
+                </p>
+              </div>
+            </div>
+            <div class="steps-slider__slide steps-slide swiper-slide">
+              <div class="steps-slide__info">
+                <p class="steps-slide__number title">
+                  02
+                  <img
+                    src="./assets/images/checkmark.webp"
+                    width="72"
+                    height="72"
+                    loading="lazy"
+                    alt="Смайлик галочки"
+                  />
+                </p>
+                <p class="steps-slide__title title">
+                  Выбор пакета<br />и количества Лидов
+                </p>
+              </div>
+              <div class="steps-slide__text">
+                <p class="steps-slide__desc">
+                  После добавления проекта в систему, вам необходимо выбрать тот
+                  пакет и количество Лидов, которое вам необходимо.
+                </p>
+              </div>
+            </div>
+            <div class="steps-slider__slide steps-slide swiper-slide">
+              <div class="steps-slide__info">
+                <p class="steps-slide__number title">
+                  03
+                  <img
+                    src="./assets/images/money_wings.webp"
+                    width="72"
+                    height="72"
+                    loading="lazy"
+                    alt="Смайлик с крыльями"
+                  />
+                </p>
+                <p class="steps-slide__title title">Оплата проекта</p>
+              </div>
+              <div class="steps-slide__text">
+                <p class="steps-slide__desc">
+                  Оплатить Лидов вы сможете пластиковой картой или безналичным
+                  переводом.
+                </p>
+              </div>
+            </div>
+            <div class="steps-slider__slide steps-slide swiper-slide">
+              <div class="steps-slide__info">
+                <p class="steps-slide__number title">
+                  04
+                  <img
+                    src="./assets/images/locked.webp"
+                    width="72"
+                    height="72"
+                    loading="lazy"
+                    alt="Смайлик замка"
+                  />
+                </p>
+                <p class="steps-slide__title title">Получение кода для сайта</p>
+              </div>
+              <div class="steps-slide__text">
+                <p class="steps-slide__desc">
+                  После оплаты, система для вас сгенерирует код, который вам
+                  необходимо установить на свой сайт (в шаблоне сайта, перед
+                  тегом &lt;head&gt;).
+                </p>
+              </div>
+            </div>
+            <div class="steps-slider__slide steps-slide swiper-slide">
+              <div class="steps-slide__info">
+                <p class="steps-slide__number title">
+                  05
+                  <img
+                    src="./assets/images/stars_face.webp"
+                    width="72"
+                    height="72"
+                    loading="lazy"
+                    alt="Смайлик со звездами"
+                  />
+                </p>
+                <p class="steps-slide__title title">Начало получения Лидов</p>
+              </div>
+              <div class="steps-slide__text">
+                <p class="steps-slide__desc">
+                  В зависимости от вашей тематики (услуги или товара), а также
+                  объёма вашего трафика сайта система будет добавлять в личном
+                  кабинете контакты потенциальных клиентов, заинтересованных в
+                  вашей услуги и из вашего региона.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="steps-slider__pagination"
+            role="tablist"
+            aria-label="Навигация по шагам"
+          ></div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <p class="footer__title">
+        &copy; 2025 Все права защищены. Технология «Лид Конвейер» -
+        лидогенерация для бизнеса.
+      </p>
+      <p class="footer__desc">
+        ООО «ДС-ГРУПП» ИНН 7801355174 ОГРН 1187847129425
+      </p>
+      <div class="footer__list">
+        <a href="./index.html" class="footer__item">Блог</a>
+        <span>|</span>
+        <a href="./index.html" class="footer__item">Договор-оферта</a>
+        <span>|</span>
+        <a href="./index.html" class="footer__item">
+          Политика конфиденциальности
+        </a>
+        <span>|</span>
+        <a href="./index.html" class="footer__item">
+          Соглашение об обработке данных
+        </a>
+        <span>|</span>
+        <a href="./index.html" class="footer__item">Вход в личный кабинет</a>
+      </div>
+    </footer>
+    <script type="module" src="./scripts/main.js"></script>
+  </body>
+</html>
